@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Site/static/css/main.1155dded.css",
+    "main.js": "/Site/static/js/main.ab6f2396.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Site/static/js/787.28cb0dcd.chunk.js",
+    "static/media/header.jpg": "/Site/static/media/header.35a73d7586a566836d2f.jpg",
+    "static/media/enigma.png": "/Site/static/media/enigma.8b9a84c6701ab4766651.png",
+    "static/media/SourceSansPro-Regular.ttf": "/Site/static/media/SourceSansPro-Regular.358e8828cd2fc97c7e74.ttf",
+    "static/media/SourceSansPro-Light.ttf": "/Site/static/media/SourceSansPro-Light.88e269bdeada76364eac.ttf",
+    "static/media/SourceSansPro-Bold.ttf": "/Site/static/media/SourceSansPro-Bold.8a1dab6b26e68026997d.ttf",
+    "static/media/git.png": "/Site/static/media/git.90b5ec65a2b350bb3daf.png",
+    "static/media/numpy.png": "/Site/static/media/numpy.9eca1f7a4f09a8c742fd.png",
+    "static/media/brain.png": "/Site/static/media/brain.30537acea44bb7ea52b6.png",
+    "static/media/linkedin.svg": "/Site/static/media/linkedin.279900ea2b05f32db6f0f7264a2023b5.svg",
+    "static/media/instalogo.svg": "/Site/static/media/instalogo.94835d6af45e1c3d63695e58fdf5fbd3.svg",
+    "static/media/github.svg": "/Site/static/media/github.957687a138b169a753415dfe57622f89.svg",
+    "index.html": "/Site/index.html",
+    "main.1155dded.css.map": "/Site/static/css/main.1155dded.css.map",
+    "main.ab6f2396.js.map": "/Site/static/js/main.ab6f2396.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Site/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1155dded.css",
+    "static/js/main.ab6f2396.js"
+  ]
+}
