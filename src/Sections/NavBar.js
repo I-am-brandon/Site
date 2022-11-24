@@ -32,14 +32,13 @@ export const NavBar = () => {
         setActiveLink(value)
     }
 
-
     return (
       <Router>
           <Navbar expand="md" className={scrolled ? "scrolled": ""}>
             <Container>
               <Navbar.Brand href="#home">
-              {/* //LOGO HERE */}
-                {/* <img src={} alt="Logo" />  */}
+              {/* //INSERT YOUR LOGO HERE instead of navICON1 */}
+                <img className = 'logoimg' src={navIcon1} alt="Logo" /> 
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <span className="navbar-toggler-icon"></span>
