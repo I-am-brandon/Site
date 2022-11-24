@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+
+/* Custom Fonts */
+@font-face {
+  font-family: SansPro;
+  src: url(/Users/brandonpenilla/Desktop/Codebase/my-app/src/assets/fonts/source-sans-pro/SourceSansPro-Regular.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: SansPro;
+  src: url(/Users/brandonpenilla/Desktop/Codebase/my-app/src/assets/fonts/source-sans-pro/SourceSansPro-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: SansPro;
+  src: url(/Users/brandonpenilla/Desktop/Codebase/my-app/src/assets/fonts/source-sans-pro/SourceSansPro-Bold.ttf);
+  font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/************ Default Css ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-weight: 400;
+  /*dont want horizontal overflow */
+  overflow-x: hidden;
+  position: relative;
+  /* using important because somethimes bootstap styling overwrites our styling */
+  background-color: #ffffff !important;
+  color: rgb(0, 0, 0) !important;
+  font-family: 'SansPro', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+
+/* *************** */
+
+/* .app{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+} */
+/* 
+.MH1 {
+  display: flex;
+  color: gray;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .navigation ul li:hover {
+  border-bottom: 1px solid #333;
+  /* text-decoration: underline; */
+  /* background-color: black; */
+/* } */
+
+/* .navigation {
+  position: fixed;
+} */
