@@ -32,7 +32,6 @@ export const NavBar = () => {
         setActiveLink(value)
     }
 
-
     return (
       <Router>
           <Navbar expand="md" className={scrolled ? "scrolled": ""}>

@@ -48,7 +48,6 @@ const tick = () => {
     }
 }
 
-
     return (
         <section className="banner" id="home">
       <Container>
